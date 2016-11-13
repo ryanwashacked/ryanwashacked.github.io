@@ -1,0 +1,103 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Taolin Learners Styles</title>
+  <meta name="description" content="Personal Leadership Diary">
+  <meta name="author" content="taolin.co.uk">
+<!-- Latest compiled and minified CSS -->
+<link href="https://fonts.googleapis.com/css?family=Nunito:400,700" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<!-- <link rel="stylesheet" type="text/css" href="css/chartist.css"> -->
+<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <style type="text/css">
+    .spinner {
+  width: 40px;
+  height: 40px;
+
+  position: relative;
+  margin: 100px auto;
+}
+
+.double-bounce1, .double-bounce2 {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #333;
+  opacity: 0.6;
+  position: absolute;
+  top: 0;
+  left: 0;
+  
+  -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
+  animation: sk-bounce 2.0s infinite ease-in-out;
+}
+
+.double-bounce2 {
+  -webkit-animation-delay: -1.0s;
+  animation-delay: -1.0s;
+}
+
+@-webkit-keyframes sk-bounce {
+  0%, 100% { -webkit-transform: scale(0.0) }
+  50% { -webkit-transform: scale(1.0) }
+}
+
+@keyframes sk-bounce {
+  0%, 100% { 
+    transform: scale(0.0);
+    -webkit-transform: scale(0.0);
+  } 50% { 
+    transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+  }
+}
+  </style>
+</head>
+
+<body>
+<div class="container">
+<div class="row" style="background: white;">
+<div class="col-md-12">
+<h1> Learner Info</h1>
+
+
+<table id="mainTable" class="display" cellspacing="0" width="100%">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Learning Style</th>
+                <th>Updated</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+</table>
+<div id="plisw8" style="display: none;" class="spinner">
+  <div class="double-bounce1"></div>
+  <div class="double-bounce2"></div>
+  <p>Please wait...</p>
+</div>
+</div>
+
+</div>
+
+</div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+  <script type="text/javascript" src="js/tincan.js"></script>
+ <script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+  <script src="js/scripts.js"></script>
+</body>
+</html>
